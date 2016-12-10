@@ -15,7 +15,7 @@
         <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/bg_event"
+        android:src="@mipmap/ic_launcher"
         android:scaleType="centerCrop"/>
         <Button
         android:layout_width="wrap_content"
@@ -36,19 +36,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sun, Dec 4 2016"
+            android:text="Tanggal"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Android 24 JAM (6 Pertemuan)"
+            android:text="Judul"
             android:textSize="24sp"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Code Margonda"/>
+            android:text="Lokasi"/>
 
     </LinearLayout>
 
@@ -65,23 +65,23 @@
         android:layout_marginTop="8dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
             android:layout_marginLeft="16dp"
-            android:text="#ScienceAndTech    #Tournament"/>
+            android:text="Kategori"/>
         <View
             android:layout_width="0.5dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:background="#bebebe"/>
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:background="#5078e7"
-            android:layout_weight="1"
             android:src="@android:drawable/ic_menu_share"/>
         <View
             android:layout_width="0.5dp"
@@ -89,12 +89,11 @@
             android:layout_marginLeft="16dp"
             android:background="#bebebe"/>
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="40dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:background="#6bbc00"
-            android:layout_weight="1"
             android:src="@android:drawable/stat_sys_phone_call"/>
 
     </LinearLayout>
