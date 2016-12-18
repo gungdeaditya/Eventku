@@ -13,16 +13,18 @@
         android:layout_height="wrap_content">
 
         <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@mipmap/ic_launcher"
-        android:scaleType="centerCrop"/>
+            android:id="@+id/imgGambar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
         <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="FREE"
-        android:layout_alignParentRight="true"
-        android:layout_margin="8dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+            android:text="FREE" />
 
     </RelativeLayout>
 
@@ -30,25 +32,30 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
         <TextView
+            android:id="@+id/txTanggal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tanggal"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/txJudul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Judul"
             android:textSize="24sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/txLokasi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lokasi"/>
+            android:text="Lokasi" />
 
     </LinearLayout>
 
@@ -65,36 +72,41 @@
         android:layout_marginTop="8dp">
 
         <TextView
+            android:id="@+id/txKategori"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
             android:layout_marginLeft="16dp"
-            android:text="Kategori"/>
+            android:layout_weight="1"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="Kategori" />
+
         <View
             android:layout_width="0.5dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
-            android:background="#bebebe"/>
+            android:background="#bebebe" />
+
         <ImageView
             android:layout_width="40dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:background="#5078e7"
-            android:src="@android:drawable/ic_menu_share"/>
+            android:src="@android:drawable/ic_menu_share" />
+
         <View
             android:layout_width="0.5dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
-            android:background="#bebebe"/>
+            android:background="#bebebe" />
+
         <ImageView
             android:layout_width="40dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:background="#6bbc00"
-            android:src="@android:drawable/stat_sys_phone_call"/>
+            android:src="@android:drawable/stat_sys_phone_call" />
 
     </LinearLayout>
 
@@ -102,6 +114,27 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="#bebebe"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:background="#bebebe" />
+
+    <Button
+        android:onClick="ubah1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ubah"/>
+    <Button
+        android:onClick="ubah2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ubah2"/>
+    <Button
+        android:onClick="ubah3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ubah3"/>
+    <Button
+        android:onClick="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
 </LinearLayout>

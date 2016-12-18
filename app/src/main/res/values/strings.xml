@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Eventku</string>
+    <string name="tanggal_1">Minggu, 4 Des 2016</string>
+    <string name="tanggal_2">Minggu, 7 Des 2016</string>
+    <string name="tanggal_3">Minggu, 11 Des 2016</string>
+
+    <string name="judul_1">Android 24 Jam</string>
+    <string name="judul_2">DWP(Djakarta Warehouse Project)</string>
+    <string name="judul_3">Magic Bricks</string>
+
+    <string name="lokasi_1">Code Margonda</string>
+    <string name="lokasi_2">Balai Kartini</string>
+    <string name="lokasi_3">Kelapa Gading</string>
+
+    <string name="kategori_1">#tech #education</string>
+    <string name="kategori_2">#fun #dugem</string>
+    <string name="kategori_3">#education</string>
 </resources>
