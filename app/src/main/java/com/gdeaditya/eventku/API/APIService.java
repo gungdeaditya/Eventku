@@ -1,11 +1,13 @@
 package com.gdeaditya.eventku.API;
 
+import com.gdeaditya.eventku.Model.ResponseArtikel;
 import com.gdeaditya.eventku.Model.ResponseLogin;
 import com.gdeaditya.eventku.Model.ResponseSignup;
 
 import retrofit.Callback;
 import retrofit.http.Field;
 import retrofit.http.FormUrlEncoded;
+import retrofit.http.GET;
 import retrofit.http.POST;
 
 /**
@@ -29,4 +31,7 @@ public interface APIService {
                     @Field("phone") String phone,
                    Callback<ResponseSignup> callback
     );
+
+    @GET("/allevent")
+    void getArtikel(Callback<ResponseArtikel.ResponseArtikelResult> cb);
 }

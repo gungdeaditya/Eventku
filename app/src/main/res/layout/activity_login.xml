@@ -11,27 +11,48 @@
     android:orientation="vertical"
     tools:context="com.gdeaditya.eventku.LoginActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="30dp"
+        android:src="@drawable/background"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <EditText
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:hint="Password"
         android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
     <Button
         android:onClick="login"
-        android:layout_width="wrap_content"
+        android:background="#67cc2d"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"/>
+        android:layout_marginTop="8dp"
+        android:text="Login"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"/>
     <Button
         android:onClick="signup"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Ke Signup"/>
 
 </LinearLayout>
